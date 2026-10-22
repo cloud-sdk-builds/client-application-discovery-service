@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-application-discovery-service`](https://www.npmjs.com/package/@aws-sdk/client-application-discovery-service/v/3.1154.0).
+[`@aws-sdk/client-application-discovery-service`](https://www.npmjs.com/package/@aws-sdk/client-application-discovery-service/v/3.1155.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-application-discovery-service - [https://cloud-sdk-builds.github.io/?sdk=client-application-discovery-service](https://cloud-sdk-builds.github.io/?sdk=client-application-discovery-service)
-- @aws-sdk/client-application-discovery-service v3.1154.0 - [https://cloud-sdk-builds.github.io/?sdk=client-application-discovery-service&version=3.1154.0](https://cloud-sdk-builds.github.io/?sdk=client-application-discovery-service&version=3.1154.0)
+- @aws-sdk/client-application-discovery-service v3.1155.0 - [https://cloud-sdk-builds.github.io/?sdk=client-application-discovery-service&version=3.1155.0](https://cloud-sdk-builds.github.io/?sdk=client-application-discovery-service&version=3.1155.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-discovery-service@3.1154.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-discovery-service@3.1155.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-cgOB7YR6CmtCfUDpjsbctc0EB7HO1R9VdmG1GLFMPxUXpLg3/yJHx5u/3UIxr6Mp
+sha384-O1in9jDIgf3rnRhytFZZa8ZjYO3jcAt1ETtRAkOPyB6Q0BkNss6Q9lUye0otc5s9
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-application-discovery-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-discovery-service@3.1154.0/index.min.mjs"
+            "@aws-sdk/client-application-discovery-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-discovery-service@3.1155.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-discovery-service@3.1154.0/index.min.mjs": "sha384-cgOB7YR6CmtCfUDpjsbctc0EB7HO1R9VdmG1GLFMPxUXpLg3/yJHx5u/3UIxr6Mp"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-discovery-service@3.1155.0/index.min.mjs": "sha384-O1in9jDIgf3rnRhytFZZa8ZjYO3jcAt1ETtRAkOPyB6Q0BkNss6Q9lUye0otc5s9"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-application-discovery-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-discovery-service@3.1154.0/index.min.mjs"
+                        "@aws-sdk/client-application-discovery-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-discovery-service@3.1155.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-discovery-service@3.1154.0/index.min.mjs": "sha384-cgOB7YR6CmtCfUDpjsbctc0EB7HO1R9VdmG1GLFMPxUXpLg3/yJHx5u/3UIxr6Mp"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-application-discovery-service@3.1155.0/index.min.mjs": "sha384-O1in9jDIgf3rnRhytFZZa8ZjYO3jcAt1ETtRAkOPyB6Q0BkNss6Q9lUye0otc5s9"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1154.0`)
+* Always pin to a specific version (`@3.1155.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-application-discovery-service/blob/refs/tags/3.1154.0/LICENSE
+https://github.com/cloud-sdk-builds/client-application-discovery-service/blob/refs/tags/3.1155.0/LICENSE
 ```
 
 ---
